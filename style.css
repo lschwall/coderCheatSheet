@@ -1,0 +1,58 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+body {
+          letter-spacing: 3px;
+          font-family: 'Poppins', sans-serif;
+          margin: 10px;
+          width: 80%;
+          line-height: 24pt;
+}
+
+#description {
+          border: 1px black dashed;
+}
+
+#desc-list {
+          margin-left: 50px;
+}
+
+#commits {
+          margin-top: 20px;
+          border: 1px black dashed;
+}
+#commit-format {
+          margin:  10px 0 0 5px;
+          color: red;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+}
+
+#commit-desc-list {
+          margin-top: 10px;
+}
+#commit-desc-list-item {
+          list-style-type: none;
+          margin-left: 50px;
+}
+
+#stack {
+          border: 1px black dashed;
+          margin-top: 20px;
+}
+
+#stack >div {
+          margin-left: 10px;
+}
+
+#diagram {
+          border: 1px black dashed;
+          margin-top: 20px;
+}
+#diagram >img{
+          width: 100vmin;
+}
